@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #0a22f4;
+}
+
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    width:463px;
+    height:197px;
+}
+
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    width:463px;
+    height:197px;
+    border-radius: 15px;
+    opacity: 1;
+}
+
+
+.gmap_iframe {
+    width:463px!important;
+    height:197px!important;
+}
+
+.map_box {
+    margin-left: 100px;
+    margin-top: -70px;
+}
+
+.text_box {
+    width: 350px;
+    margin-top: 120px;
+    margin: 100px;
+    font-family: "Mkedruli";
+    font-size: 17px;
+}
+.text_one {
+    padding: 20px;
+    color: #ffffff;
+   
+
+}
+.text_two {
+    padding: 25px;
+    color: #ffffff;
+
+}
+
+.contact_box {
+    margin-top: 100px;
+    margin-left: 11px;
+}
+
+.contact_section {
+    display: inline-block;
+    padding-right: 45px;
+}
+.contact_section p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px;
+
+}
+
+.phone_box {
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+}
+
+.massage_box {
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+}
+
+.contact_box p {
+    color: #ffffff;
+}
+
+section {
+    display: inline-block;
+}
+
+.section_2 {
+
+    margin-left: 250px;
+    margin-top: 285px;
+}
+
+.label1 {
+    margin: 55px;
+
+}
+
+input {
+    width: 400px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+    color: #ffffff;
+}
+
+.login1 {
+    margin-left: 300px;
+    width: 115px;
+    height: 35px;
+    border-radius: 18px;
+}
+
+::placeholder {
+    color: #ffffff;
+    font-weight: bold;
+}
